@@ -4,6 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <style>
+    .margin-top {
+      margin-top: 10rem;
+    }
     .overlay-container {
       position: relative;
     }
@@ -37,96 +40,118 @@
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
     }
-    #projects .row > div {
+    #projects .row>div {
       padding: 0;
     }
   </style>
 </head>
 
 <body>
-  <!--About section-->
-  <div class="container"><h2 style="height:180px;text-align:center;line-height: 180px;background-image: url(http://chromecastbg.alexmeub.com/images/orig_AF1QipNU6p9ADqixQDwBZm5u9r64Iv82Xq44q9qDDLzK.jpg);color:white;font-size:50px;background-repeat: no-repeat;
+  <!-- NAVIGATION -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          Your Name
+        </a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- END NAVIGATION -->
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <!-- TITLE & HERO IMAGE -->
+    <h2 style="height:180px;text-align:center;line-height: 180px;background-image: url(http://chromecastbg.alexmeub.com/images/orig_AF1QipNU6p9ADqixQDwBZm5u9r64Iv82Xq44q9qDDLzK.jpg);color:white;font-size:50px;background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;background-size: cover;">My Portfolio</h2>
-        <div class="page" id="about">
-    <div class="content container">
-      <div class="row">
-      <div class="col-sm-3">
-        <h2>Who am I</h2>
-      </div>
-      <div class="col-sm-9">
-          <p> ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
-          pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-          a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-          Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-          consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-          Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
-          nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
-          tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
-          Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
-          tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget
-          eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-          Sed consequat, leo eget bibendum sodales, augue velit cursus nunc</p>
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-          ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
-          It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
-          all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One
-          day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World
-          of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild
-          Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven
-          versalia, put her initial into the belt and made herself on the way. When she reached the first hills
-          of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove,
-          the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric
-          question ran over her cheek</p>
-    </div>
-    </div>
-    <!--row container-->
-    </div>
-    <!--content container-->
-  </div>
-    <div id="projects">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="overlay-container img-responsive">
-            <img src="http://fillmurray.com/400/400" class="img-responsive">
-            <div class="overlay">
-              <div class="text">
-                <h3>Project</h3>
-                <p>Description of the project</p>
-                <a href="http://google.com" class="btn btn-primary">Check it</a>
-              </div>
-            </div>
+    <!-- END TITLE & HERO IMAGE -->
+
+    <!-- ABOUT SECTION -->
+    <div class="page" id="about">
+      <div class="content margin-top">
+        <div class="row">
+          <div class="col-sm-3">
+            <h2>Who am I</h2>
           </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="overlay-container img-responsive">
-            <img src="http://fillmurray.com/400/400" class="img-responsive">
-            <div class="overlay">
-              <div class="text">
-                <h3>Project</h3>
-                <p>Description of the project</p>
-                <a href="http://google.com" class="btn btn-primary">Check it</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="overlay-container img-responsive">
-            <img src="http://fillmurray.com/400/400" class="img-responsive">
-            <div class="overlay">
-              <div class="text">
-                <h3>Project</h3>
-                <p>Description of the project</p>
-                <a href="http://google.com" class="btn btn-primary">Check it</a>
-              </div>
-            </div>
+          <div class="col-sm-9">
+            <p> ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+              natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+              pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+              nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis
+              eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+              tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+              viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+              Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+              tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam
+              quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec
+              vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+              Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum
+              sodales, augue velit cursus nunc</p>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+              texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A
+              small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic
+              country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control
+              about the blind texts it is an almost unorthographic life One day however a small line of blind text by the
+              name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so,
+              because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind
+              Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+              When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown
+              Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a
+              rethoric question ran over her cheek</p>
           </div>
         </div>
       </div>
     </div>
+    <!-- END ABOUT SECTION -->
+
+    <!-- PROJECTS SECTION -->
+    <div id="projects" class="margin-top">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="overlay-container img-responsive">
+            <img src="http://fillmurray.com/400/400" class="img-responsive">
+            <div class="overlay">
+              <div class="text">
+                <h3>Project</h3>
+                <p>Description of the project</p>
+                <a href="http://google.com" class="btn btn-primary">Check it</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="overlay-container img-responsive">
+            <img src="http://fillmurray.com/400/400" class="img-responsive">
+            <div class="overlay">
+              <div class="text">
+                <h3>Project</h3>
+                <p>Description of the project</p>
+                <a href="http://google.com" class="btn btn-primary">Check it</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="overlay-container img-responsive">
+            <img src="http://fillmurray.com/400/400" class="img-responsive">
+            <div class="overlay">
+              <div class="text">
+                <h3>Project</h3>
+                <p>Description of the project</p>
+                <a href="http://google.com" class="btn btn-primary">Check it</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PROJECTS SECTION -->
   </div>
 </body>
 
