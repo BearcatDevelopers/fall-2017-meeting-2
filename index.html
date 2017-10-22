@@ -155,7 +155,22 @@
     </div>
     <!-- END PROJECTS SECTION -->
     <div id="contact" class="margin-top">
-      <p class="margin-top"><em>add contact form here</em></p>
+      <h2>Contact</h2>
+      <form class="margin-top" action="https://formspree.io/bearcatdevelopers@gmail.com" method="POST">
+        <div class="form-group">
+          <label for="yourEmail">Your email address</label>
+          <input type="email" class="form-control" id="yourEmail" placeholder="Email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3" name="message" placeholder="How's it going buddy?'"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
     </div>
   </div>
   <script>
